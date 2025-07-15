@@ -1,0 +1,76 @@
+/* Global Countdown Timer Styles */
+.wcpdb-global-countdown {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.wcpdb-timer-box {
+  background: #111;
+  border-radius: 4px;
+  padding: 6px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 32px;
+}
+.wcpdb-timer-num {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 2px;
+}
+.wcpdb-timer-label {
+  font-size: 0.95rem;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Table and image fixes for plugin offer table (theme compatibility, forced with !important) */
+.wcpdb-offer-wrapper .shop_table img {
+  max-width: 60px !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+.wcpdb-offer-wrapper .shop_table {
+  table-layout: fixed !important;
+}
+.wcpdb-offer-wrapper .shop_table th,
+.wcpdb-offer-wrapper .shop_table td {
+  word-break: break-word !important;
+}
+
+/* Discount badge styling for theme compatibility */
+.wcpdb-offer-wrapper .wcpdb-discount-badge {
+  background: #d32f2f;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.95em;
+  display: inline-block;
+}
+
+/* Column width and alignment fixes for offer table */
+.wcpdb-offer-wrapper .shop_table th:nth-child(1),
+.wcpdb-offer-wrapper .shop_table td:nth-child(1) {
+  width: 70px;
+}
+.wcpdb-offer-wrapper .shop_table th:nth-child(2),
+.wcpdb-offer-wrapper .shop_table td:nth-child(2) {
+  width: 50px;
+  text-align: center;
+}
+.wcpdb-offer-wrapper .shop_table th:nth-child(3),
+.wcpdb-offer-wrapper .shop_table td:nth-child(3) {
+  width: 70px;
+  text-align: center;
+}
+.wcpdb-offer-wrapper .shop_table th:nth-child(4),
+.wcpdb-offer-wrapper .shop_table td:nth-child(4) {
+  width: 100px;
+  text-align: left;
+}
